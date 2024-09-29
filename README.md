@@ -8,7 +8,7 @@
   ```
   Server=MyServer;Database=WeeClaims;Trusted_Connection=True;Encrypt=false;Trust Server Certificate=True
   ```
-3. Iniciar migraciones ejecutar el siguiente comando con la consola de administrador de paquetes Nuget
+3. Iniciar migraciones (en caso de que no existan) ejecutar el siguiente comando con la consola de administrador de paquetes Nuget
   ```
   Add-Migration InitDB
   ```
